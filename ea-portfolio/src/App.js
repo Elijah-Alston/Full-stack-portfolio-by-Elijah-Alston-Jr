@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages";
 import About from "./pages/about";
+import Main from "./pages/main";
 import Blog from "./pages/blog";
 import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
@@ -21,6 +22,7 @@ function App() {
             <Routes>
             
                 <Route exact path="/" element={<Home />} />
+                <Route exact path="/main" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route
                     path="/contact"
@@ -32,7 +34,7 @@ function App() {
                     path="/Portfolio"
                     element={<Portfolio />}
                 />
-                <Route exact path="/" element={<Homes />} />
+               
 
             </Routes>
         </Router>

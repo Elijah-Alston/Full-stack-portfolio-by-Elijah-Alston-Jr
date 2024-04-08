@@ -7,7 +7,10 @@ import React from "react";
 const Home = () => {
     return (
         <div>
-            <h1>Welcome to GeeksforGeeks</h1>
+            <h1>Hi,</h1>
+            <h2> My Name is Elijah</h2>
+
+            <p>A Full Stack Developer and Graphic Designer</p>
 
             
             <Footer/>

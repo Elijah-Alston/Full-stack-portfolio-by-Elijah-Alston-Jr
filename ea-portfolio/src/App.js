@@ -2,7 +2,7 @@
 // Filename - App.js
  
 import React from "react";
-
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar";
 import { 
     BrowserRouter as Router,
@@ -22,7 +22,7 @@ import Contact from "./pages/contact";
 function App() {
     return (
 
-      
+      <div>
         <Router>
             <Navbar />
             <Routes>
@@ -45,6 +45,8 @@ function App() {
             </Routes>
         </Router>
 
+        <Footer/>
+        </div>
 
 
     );

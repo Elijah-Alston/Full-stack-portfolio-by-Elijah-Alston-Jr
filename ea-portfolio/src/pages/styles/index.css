@@ -47,7 +47,7 @@ display: inline-block;
 animation: infinite;
 animation-name: indexPA;
 animation-duration: 3s;
-animation-delay: 1s;
+animation-delay: .5s;
 animation-direction: alternate
 }
 

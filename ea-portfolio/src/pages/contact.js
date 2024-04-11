@@ -1,7 +1,7 @@
 // Filename - pages/contact.js
 
 import React from "react";
-
+import Footer from "../components/Footer/Footer";
 const Contact = () => {
 	return (
 		<div>
@@ -9,6 +9,7 @@ const Contact = () => {
 				Mail us on 
 				feedback@geeksforgeeks.org
 			</h1>
+
 		</div>
 	);
 };

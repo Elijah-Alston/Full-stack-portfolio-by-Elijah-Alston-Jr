@@ -1,6 +1,7 @@
 // Filename - pages/about.js
 
 import React from "react";
+import Footer from "../components/Footer/Footer";
 
 const About = () => {
 	return (
@@ -9,7 +10,15 @@ const About = () => {
 				GeeksforGeeks is a Computer Science portal
 				for geeks.
 			</h1>
+
+
+
+	
+
 		</div>
+
+
+
 	);
 };
 

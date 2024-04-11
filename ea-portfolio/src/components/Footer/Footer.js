@@ -15,18 +15,20 @@ const Footer = () => {
 		<Box>
 			<h1
 				style={{
-					color: "green",
+					color: "black",
 					textAlign: "center",
 					marginTop: "10px",
+					marginBottom: "35px",
+					
 					
 				}}
 			>
-				A Computer Science Portal for Geeks!
+				Thats All Folks
 			</h1>
 			<FooterContainer>
 				<Row>
 					<Column>
-						<Heading>About Us</Heading>
+						<Heading>About</Heading>
 						<FooterLink href="#">
 							Aim
 						</FooterLink>
@@ -38,22 +40,7 @@ const Footer = () => {
 						</FooterLink>
 					</Column>
 					<Column>
-						<Heading>Services</Heading>
-						<FooterLink href="#">
-							Writing
-						</FooterLink>
-						<FooterLink href="#">
-							Internships
-						</FooterLink>
-						<FooterLink href="#">
-							Coding
-						</FooterLink>
-						<FooterLink href="#">
-							Teaching
-						</FooterLink>
-					</Column>
-					<Column>
-						<Heading>Contact Us</Heading>
+						<Heading>Contact</Heading>
 						<FooterLink href="#">
 							Uttar Pradesh
 						</FooterLink>
@@ -68,7 +55,23 @@ const Footer = () => {
 						</FooterLink>
 					</Column>
 					<Column>
-						<Heading>Social Media</Heading>
+						<Heading>Portfolio</Heading>
+						<FooterLink href="#">
+							Writing
+						</FooterLink>
+						<FooterLink href="#">
+							Internships
+						</FooterLink>
+						<FooterLink href="#">
+							Coding
+						</FooterLink>
+						<FooterLink href="#">
+							Teaching
+						</FooterLink>
+					</Column>
+					
+					<Column>
+						<Heading>Socials</Heading>
 						<FooterLink href="#">
 							<i className="fab fa-facebook-f">
 								<span

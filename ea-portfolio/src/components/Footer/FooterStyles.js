@@ -4,13 +4,19 @@ import styled from "styled-components";
 
 export const Box = styled.div`
 	padding: 5% 2.5%;
-	background: black;
-	// position: fixed;
+	background: grey;
+	/=/ position: fixed;
 	bottom: 0;
-	width: 95%;
+	min-width: 65%;
+	max-width: 95%;
+	text-align: center;
+	font-size: 4vw;
+	max-height: 400px;
 
 	@media (max-width: 1000px) {
 		// padding: 70px 30px;
+		font-size: 7vw;
+		max-height: 100%;
 	}
 `;
 
@@ -42,19 +48,19 @@ export const Row = styled.div`
 	@media (max-width: 1000px) {
 		grid-template-columns: repeat(
 			auto-fill,
-			minmax(200px, 1fr)
+			minmax(100px, fr)
 		);
 	}
 `;
 
 export const FooterLink = styled.a`
-	color: #fff;
+	color: black;
 	margin-bottom: 20px;
 	font-size: 18px;
 	text-decoration: none;
 
 	&:hover {
-		color: green;
+		color: red;
 		transition: 200ms ease-in;
 	}
 `;

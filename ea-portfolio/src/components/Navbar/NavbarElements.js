@@ -16,7 +16,7 @@ background: rgba(191, 191, 191, 0.4);
 	color: black;
 	min-width: 50%;
 	max-width: 75%;
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1300px) {
 		min-width: 50%;
 	max-width: 100%;
 	}

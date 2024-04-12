@@ -3,7 +3,7 @@
 import React from "react";
 import Footer from "../components/Footer/Footer";
 const Blog = () => {
-	return ( <div><h1>You can write your blogs!</h1>
+	return ( <div><h1>More Coming Soon!!</h1>
 
 	
 	

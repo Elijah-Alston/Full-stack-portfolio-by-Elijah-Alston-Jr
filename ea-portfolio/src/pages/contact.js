@@ -6,8 +6,7 @@ const Contact = () => {
 	return (
 		<div>
 			<h1>
-				Mail us on 
-				feedback@geeksforgeeks.org
+				Contact page using an API Coming Soon
 			</h1>
 
 		</div>

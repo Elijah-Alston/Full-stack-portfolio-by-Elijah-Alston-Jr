@@ -30,43 +30,38 @@ const Footer = () => {
 					<Column>
 						<Heading>About</Heading>
 						<FooterLink href="#">
-							Aim
+							Resume
 						</FooterLink>
 						<FooterLink href="#">
-							Vision
+							Skills
 						</FooterLink>
 						<FooterLink href="#">
-							Testimonials
+							More Info
 						</FooterLink>
 					</Column>
 					<Column>
 						<Heading>Contact</Heading>
 						<FooterLink href="#">
-							Uttar Pradesh
+							Contact Link
 						</FooterLink>
 						<FooterLink href="#">
-							Ahemdabad
+							More Info
 						</FooterLink>
-						<FooterLink href="#">
-							Indore
-						</FooterLink>
-						<FooterLink href="#">
-							Mumbai
-						</FooterLink>
+						
 					</Column>
 					<Column>
 						<Heading>Portfolio</Heading>
 						<FooterLink href="#">
-							Writing
+							Full-stack Portfolio
 						</FooterLink>
 						<FooterLink href="#">
-							Internships
+							project 2
 						</FooterLink>
 						<FooterLink href="#">
-							Coding
+						project 3
 						</FooterLink>
 						<FooterLink href="#">
-							Teaching
+						project 4
 						</FooterLink>
 					</Column>
 					
@@ -79,7 +74,7 @@ const Footer = () => {
 										marginLeft: "10px",
 									}}
 								>
-									Facebook
+									LinkedIn
 								</span>
 							</i>
 						</FooterLink>
@@ -112,7 +107,7 @@ const Footer = () => {
 										marginLeft: "10px",
 									}}
 								>
-									Youtube
+									Git HuB
 								</span>
 							</i>
 						</FooterLink>

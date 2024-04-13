@@ -17,8 +17,10 @@ const Home = () => {
 <div className="main-wrapper">
             <h1 className="index-h1"> Hi,</h1>
             <h2 className="index-h2"> My Name Is Elijah </h2>
-            <p className="index-p"> A Full Stack Developer and </p>
-            <p className="index-p , index-pA"> Graphic Designer</p>
+            <div className="typeWriter">
+                <p className="index-p"> A Full Stack Developer and </p>
+            
+            <p className="index-p , index-pA"> Graphic Designer</p></div>
             
 
             </div>

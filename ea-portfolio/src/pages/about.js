@@ -2,6 +2,7 @@
 
 import React from "react";
 import Footer from "../components/Footer/Footer";
+import Card from "../components/card/card.js";
 
 const About = () => {
 	return (
@@ -12,8 +13,11 @@ const About = () => {
 			</h1>
 
 
+			<Card/>
 
-	
+			<Card/>
+
+			<Card/>
 
 		</div>
 

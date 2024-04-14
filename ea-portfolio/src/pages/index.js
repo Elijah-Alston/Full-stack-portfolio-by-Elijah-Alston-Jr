@@ -9,12 +9,15 @@ import './styles/index.css'
 
 
 
+
 const Home = () => {
     return (
+
+
+        
         <div>
 
-           
-          
+       
             
             <IndexBody>
 
@@ -30,12 +33,11 @@ const Home = () => {
 
             <script>
 
-            function PAT(switchtext){
 
-                 
+            
 
 
-            }
+            
                
 
  

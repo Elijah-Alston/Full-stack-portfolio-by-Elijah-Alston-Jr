@@ -4,7 +4,7 @@ import {useState} from 'react';
 
 function Card (){
 
-   const [Title , setTitle]= useState('Full-Stack Developer' );
+   /*const [Title , setTitle]= useState('Full-Stack Developer' );
 
    const Timeout =() => {
 
@@ -12,6 +12,7 @@ function Card (){
 
 
    }
+   */
   /* setTimeout((function ()) {
     setTitle("this is the first message");
   }, 5000);
@@ -26,13 +27,14 @@ setInterval(function () { setTitle( 'Graphic Designer');}, 5000);
 setInterval(function () { setTitle( 'Software Engineer');}, 10000);
 
  */
+/*
 const div1 = document.querySelector("typeWriter");
 div1.addEventListener("animationend" , (typing) =>{});
 
 onanimationend = (typing) => { alert("hello");}; 
    
-
-
+*/
+/*
 window.onload=function (test){
 
     function test(){
@@ -43,10 +45,29 @@ window.onload=function (test){
        
     }}
 
-    return( <div className="Card">
-<div className="typeWriter">
-<h2 className="Card-h2 index-pA" >  {Title}  </h2> </div>
+    */
 
+
+const aboutPic='about-pic.JPG';
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return( <div className="cardWrapper">
+
+<div className="Card">
+<h2 className="Card-h2" ></h2> 
+<img src={aboutPic}/>
+</div>
     </div>  );
 
 

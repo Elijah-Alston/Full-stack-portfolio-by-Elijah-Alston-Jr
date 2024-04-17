@@ -2,10 +2,11 @@
 
 .Card{
 
-max-width: 20vw;
+ /*max-width: 20vw;
 width: 20vw;
-max-height: 20vh;
+max-height: 20vh; */
 height: 50vh;
+width: 100%;
 
 background-color: rgba(0, 0, 0, 0.082);
 border: solid 4px rgba(0, 0, 0, 0.123) ;
@@ -25,30 +26,11 @@ text-align: center;
 
 }
 
-.typeWriter{
+.about-Pic{
 
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid black; /* The typwriter cursor */
-    white-space: wrap;/* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: em; /* Adjust as needed */
-    max-width: 1000px;
-    animation: 
-      typing 4s steps(40, end),
-      blink-caret .75s step-end infinite;
-  
-      
-  
-  }
+height: 100%;
+width: 300px;
 
-  /* The typing effect */
-@keyframes typing {
-    from { width: 0 ;}
-    to { width: 100%; }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black; }
-  }
+
+
+}

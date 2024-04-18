@@ -15,7 +15,7 @@ const Home = () => {
 
 
         
-        <div>
+        <div className="index-body">
 
        
             
@@ -28,7 +28,9 @@ const Home = () => {
             <div className="typeWriter">
                 <p className="index-p"> A Full Stack Developer & </p>
             
-            <p className="index-p , index-pA" id="PAT"> Graphic Designer</p></div>
+            </div>
+
+            <p className="index-p , index-pA" id="PAT"> Graphic Designer</p>
             
 
             <script>

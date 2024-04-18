@@ -16,7 +16,37 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+  
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #b4b4b479;
+  box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0000007c;
+  border-radius: 10px;
+  height: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b60000;
+}
+
+.index-body{
+
+
+  margin: 100px;
+  overflow-x: hidden;
+
+}
 
 
 .index-h1{
@@ -45,11 +75,11 @@ display: inline-block; }
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid black; /* The typwriter cursor */
   white-space: wrap;/* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: em; /* Adjust as needed */
-  max-width: 1000px;
+  margin:  0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .3em; /* Adjust as needed */
+  max-width: 950px;
   animation: 
-    typing 4s steps(40, end),
+    typing 6s steps(60, end),
     blink-caret .75s step-end infinite;
 
     
@@ -76,7 +106,10 @@ animation: infinite;
 animation-name: indexPA;
 animation-duration: 3s;
 animation-delay: .5s;
-animation-direction: alternate
+animation-direction: alternate;
+
+
+
 }
 
 @keyframes indexPA{
@@ -118,4 +151,98 @@ height: 100px;
 
   }
 
-  
+  /* Start if about page*/
+
+
+  /* conatiner and wrapper for main info on about page*/
+
+  .about-body{
+
+
+
+
+  }
+  .aboutContainer{
+display: inline-block;
+
+overflow-x: hidden;
+  }
+
+
+  .aboutWrap1 , .aboutWrap2 ,.aboutWrap3{
+
+    margin: 50px;
+  padding: 100px;
+    width: 50%vw;
+    display: block;
+    
+
+    border: #000 solid;
+    background-color: green;
+    text-align: center;
+
+  }
+
+  .about-Pic{
+
+
+    height: 400px;
+    width: 100%;
+ border-radius: 5%;
+
+  }
+
+  .aboutWrap1{
+
+
+
+
+  }
+
+
+  .ABR-wrapper{
+
+display: flex;
+height: 300px;
+gap: 30px;
+flex-flow:  wrap;
+
+justify-content: space-around;
+padding: 0;
+  margin: 0;
+  list-style: none;
+
+  }
+
+
+
+  .ABR1 , .ABR2 , .ABR3 , .ABR4 , .ABR5 , .ABR6{
+
+  width:50px;
+  height: 50px;
+
+  display: block;
+  background-color: rgb(0, 0, 0);
+  }
+
+
+   .ABR1 , .ABR2 {
+
+
+
+  }
+
+  .ABR3 , .ABR4{
+
+
+
+
+  }
+
+
+  .ABR5 , .ABR6{
+
+
+
+
+  }

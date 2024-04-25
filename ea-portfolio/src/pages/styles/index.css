@@ -156,6 +156,10 @@ height: 100px;
 
   /* conatiner and wrapper for main info on about page*/
 
+
+
+ 
+
   .about-body{
 
 
@@ -175,13 +179,42 @@ overflow-x: hidden;
   padding: 100px;
     width: 50%vw;
     display: block;
-    
 
+    animation: box 3s infinite;
+    animation-delay: .8s;
+   
+    
+    
+  
     border: #000 solid;
-    background-color: green;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.342);
     text-align: center;
 
   }
+
+  .aboutWrap1:hover , .aboutWrap2:hover ,.aboutWrap3:hover{
+
+
+    animation-play-state: paused;
+
+  }
+
+
+
+  @keyframes box {
+from{ border: #000 solid;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.342);}
+
+  50%{  border: #00ff4c solid;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.342);}
+
+  to{ border: #ff0000 solid;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.342);}    
+      
+  }
+
+
+
 
   .about-Pic{
 

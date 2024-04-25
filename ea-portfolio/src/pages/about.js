@@ -14,8 +14,8 @@ const About = () => {
 
 			<div className="aboutWrap1">
 			<img src="about-pic.JPG" alt="MISSING JPG" className="about-Pic"/>
-			<p>I am a Informmtaion technology student Aspring to be a Full stack Devleoper.
-My current conectraions are in web devleopemmtn t and cyber security. I am also intrested in devleoping video games bcause of my intrest in grpahic desing and my love for gaming.</p>
+			<p>I am a Information technology student Aspiring to be a Full stack Developer.
+My current conectraions are in web devlelopment t and cyber security. I am also intrested in devleoping video games bcause of my intrest in grpahic desing and my love for gaming.</p>
 			
 			</div>
 			<div className="aboutWrap2">

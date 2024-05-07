@@ -29,7 +29,7 @@ const Footer = () => {
 				<Row>
 					<Column>
 						<Heading>About</Heading>
-						<FooterLink href="#">
+						<FooterLink href="resume.pdf">
 							Resume
 						</FooterLink>
 						<FooterLink href="#">
@@ -67,7 +67,7 @@ const Footer = () => {
 					
 					<Column>
 						<Heading>Socials</Heading>
-						<FooterLink href="#">
+						<FooterLink href="https://www.linkedin.com/in/elijah-alston-jr-04a3061b9">
 							<i className="fab fa-facebook-f">
 								<span
 									style={{
@@ -78,7 +78,7 @@ const Footer = () => {
 								</span>
 							</i>
 						</FooterLink>
-						<FooterLink href="#">
+						<FooterLink href="https://www.instagram.com/_.elijah.a?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
 							<i className="fab fa-instagram">
 								<span
 									style={{
@@ -89,7 +89,7 @@ const Footer = () => {
 								</span>
 							</i>
 						</FooterLink>
-						<FooterLink href="#">
+						<FooterLink href="https://twitter.com/elijah_a_jr">
 							<i className="fab fa-twitter">
 								<span
 									style={{
@@ -100,7 +100,7 @@ const Footer = () => {
 								</span>
 							</i>
 						</FooterLink>
-						<FooterLink href="#">
+						<FooterLink href="https://github.com/">
 							<i className="fab fa-youtube">
 								<span
 									style={{

@@ -33,17 +33,7 @@ const Home = () => {
             <p className="index-p , index-pA" id="PAT"> Graphic Designer</p>
             
 
-            <script>
-
-
-            
-
-
-            
-               
-
- 
-            </script>
+           
 
             </div>
 

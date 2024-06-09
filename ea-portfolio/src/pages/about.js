@@ -3,7 +3,8 @@
 import React from "react";
 import Footer from "../components/Footer/Footer";
 import Card from "../components/card/card.js";
-import ME from '../../public/about-pic.jpg'; // with import
+import Photo from "../components/photo.js"
+
 
 
 
@@ -14,9 +15,10 @@ const About = () => {
 			<div className="aboutContainer">
 
 			<div className="aboutWrap1">
-			<img src="pages/src/public/about-pic.JPG" alt="MISSING JPG" className="about-Pic"/>
+		<Photo/>
+
 			<p>I am a Information technology student Aspiring to be a Full stack Developer.
-My current conectraions are in web devlelopment t and cyber security. I am also intrested in devleoping video games bcause of my intrest in grpahic desing and my love for gaming.</p>
+My current conectraions are in web devlelopment t and cyber security. I am also intrested in devleoping video games because of my intrest in grpahic desing and my love for gaming.</p>
 			
 			</div>
 			<div className="aboutWrap2">

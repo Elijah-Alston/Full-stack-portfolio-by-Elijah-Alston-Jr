@@ -19,6 +19,7 @@ const Footer = () => {
 					textAlign: "center",
 					marginTop: "10px",
 					marginBottom: "35px",
+					display: "fixed",
 					
 					
 				}}

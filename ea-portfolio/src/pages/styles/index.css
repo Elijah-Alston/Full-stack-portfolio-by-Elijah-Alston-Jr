@@ -16,7 +16,18 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
+/*
+start of Nav
+*/
+.NavLogo{
 
+  width: 100%;
+  
+  height: 100px;
+    }
+  /*
+End of nav
+  */
 
 body{
   overflow-x: hidden;
@@ -46,118 +57,57 @@ body{
   background: #b60000;
 }
 
+
+
+
+/*start of index page
+*/
 .index-body{
+  margin-top: 5vw;
 
+}
+.main-wrapper{}
 
-  margin: 100px;
+.top-wrapper{
+  font-weight: bold;
  
-  overflow-y: hidden;
 }
 
-
-.index-h1{
-
-font-size: 7vw;
-font-weight: bold;
-display: inline;
+.index-h1{ 
+  font-size: 4vh;
 }
 
 .index-h2{
-
-font-size: 5vw;
-font-weight: bold;
-display: inline;
+  font-size: 4vh;
 }
-
-
-.index-p{
-    padding-top:25px;
-    padding-left:25px;
-font-size: 5vw;
-display: inline-block; }
 
 .typeWriter{
+  margin-bottom: 1vh;
+  margin-top: 2vh;
+  font-size: 2vh;
+}
+
+.hero-wrapper{
+  margin: 2.5vw;
  
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
- 
-  border-right: .15em solid black; /* The typwriter cursor */
-  white-space: wrap;/* Keeps the content on a single line */
-  margin:  0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .3em; /* Adjust as needed */
-  max-width: 950px;
-  animation: 
-    typing 6s steps(60, end),
-    blink-caret .75s step-end infinite;
+}
+.hero-p{
 
-    
-    
-
+  font-size: 2vh;
 }
 
+/* start of hero image*/
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 ;}
-  to { width: 100%; }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: black; }
-}
-
-
-.index-pA{
-
-animation: infinite;
-animation-name: indexPA;
-animation-duration: 3s;
-animation-delay: .5s;
-animation-direction: alternate;
-
-
-
-}
-
-@keyframes indexPA{
-
-from{ color: blue;}
-25%{ color: purple}
-50% {color: #ff9;}
-75%{color: green;}
-to { color: red}
-
-}
-
-.main-wrapper{
-
-padding-top: 15vh;
-
-
-
-
-}
-
-@media (max-width: 1250px) {
-
-.main-wrapper{
- 
-padding-top: 10vh;
-
-}
-
-   
+.hero-img{
+  height:  100%;
+  width: 30vh;
+  margin-bottom: 1vh;
   }
-
-  .NavLogo{
-
-width: 100%;
-
-height: 100px;
+  /* end of hero image*/
 
 
-  }
+
+/*end of index page*/
 
   /* Start of about page*/
 

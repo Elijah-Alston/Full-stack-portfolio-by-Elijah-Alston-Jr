@@ -6,7 +6,7 @@ export const IndexBody = styled.div`
 background-color: white;
 
 
- height: 750px;
+ height: 1300px;
     width: 100%;
 
 
@@ -16,14 +16,14 @@ background-color: white;
 
     @media (max-width: 1250px) {
        
-        height: 500px;
+        height: 1400px;
       }
 
 
 
       @media (max-width: 800px) {
        
-        height: 300px;
+        height: 1500px;
       }
 
 `

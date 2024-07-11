@@ -21,10 +21,10 @@ const Navbar = () => {
                     </NavLink>
                    
                     <NavLink to="/portfolio" activeStyle>
-                        portfolio
+                        Portfolio
                     </NavLink>
                     <NavLink to="/blog" activeStyle>
-                        blog
+                        Blog
                     </NavLink>
                     
                 </NavMenu>

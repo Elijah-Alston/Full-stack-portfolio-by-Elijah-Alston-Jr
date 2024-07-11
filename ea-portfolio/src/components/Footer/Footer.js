@@ -20,6 +20,7 @@ const Footer = () => {
 					marginTop: "10px",
 					marginBottom: "35px",
 					display: "fixed",
+					bottom: "0px;",
 					
 					
 				}}
@@ -75,7 +76,8 @@ const Footer = () => {
 										marginLeft: "10px",
 									}}
 								>
-									LinkedIn
+									<img width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/>
+									
 								</span>
 							</i>
 						</FooterLink>
@@ -86,7 +88,7 @@ const Footer = () => {
 										marginLeft: "10px",
 									}}
 								>
-									Instagram
+									<img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
 								</span>
 							</i>
 						</FooterLink>
@@ -97,7 +99,7 @@ const Footer = () => {
 										marginLeft: "10px",
 									}}
 								>
-									Twitter
+									<img width="50" height="50" src="https://img.icons8.com/ios/50/x.png" alt="x"/>
 								</span>
 							</i>
 						</FooterLink>
@@ -108,7 +110,7 @@ const Footer = () => {
 										marginLeft: "10px",
 									}}
 								>
-									Git HuB
+									<img width="48" height="48" src="https://img.icons8.com/material-rounded/96/github.png" alt="github"/>
 								</span>
 							</i>
 						</FooterLink>

@@ -6,7 +6,7 @@ export const Box = styled.div`
 	padding: 5% 2.5%;
 	background: grey;
 	/=/ position: fixed;
-	bottom: 0;
+	bottom: 0px;
 	min-width: 65%;
 	max-width: 95%;
 	text-align: center;

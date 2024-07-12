@@ -14,7 +14,7 @@ const About = () => {
 			<div className="aboutContainer">
 
 			<div className="aboutWrap1">
-		<img src="images/photo.png"></img>
+		<img src="images/photo.png" className="hero-img"></img>
 
 			<p>I am a Information technology student Aspiring to be a Full stack Developer.
 My current conectraions are in web devlelopment t and cyber security. I am also interested in devleoping video games because of my intrest in grpahic desing and my love for gaming.</p>

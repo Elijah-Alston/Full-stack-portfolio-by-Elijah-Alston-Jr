@@ -302,6 +302,11 @@ padding: 0;
 
  /* START of portfolio page*/
 
+ 
+
+
+
+
 
  .project-p{
 text-align: center;
@@ -318,20 +323,57 @@ padding: 10px;
   gap: 25px;
  }
 
- .SWE-wrapper{padding: 50px;
+ .SWE-wrapper{
+  padding: 50px;
   background-color: #5f3e3e;
   gap: 25px;
 display: grid;
 grid-template-columns: auto auto;
 }
 
- .Graphic-wrapper{padding:50px;
+ .Graphic-wrapper{
+  padding:50px;
 background-color: #443e3e;
 
 row-gap: 25px;
 display: grid;
 grid-template-columns: auto auto;
 }
+
+@media  screen and (max-width: 600px) {
+ 
+  .project-wrapper{
+   
+    display: flex;
+    flex-direction: column;
+  
+  
+  }
+    .hero-img{
+  width: 20vh; 
+  margin: auto;
+    }
+    .hero-img:hover{
+      width: 25vh; 
+        }
+  
+    .SWE-wrapper{padding: 50px;
+      background-color: #5f3e3e;
+      display: flex;
+      flex-direction: column;
+   
+   
+   
+    }
+    
+     .Graphic-wrapper{padding:50px;
+    background-color: #443e3e;
+    display: flex;
+    flex-direction: column;
+   
+    
+    }
+  }
 
 
 

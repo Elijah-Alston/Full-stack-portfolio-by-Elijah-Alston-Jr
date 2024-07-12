@@ -1,19 +1,19 @@
 import React from "react";
 import {Link} from "react-router-dom"
-
+import { NavLink } from "react-router-dom"
 const Navbar = () => {
     return (
             <nav>
                 <Link to="Main" className="nav-home"><img src="logo.png" className="NAV-logo"></img></Link>
 <ul className="Nav-ul">  
 
-<li className="Nav-li"> <Link to="about">About</Link></li>
+<li> <NavLink to="about">About</NavLink></li>
 
-<li className="Nav-li"><Link to="portfolio">Portfolio</Link></li>
+<li ><NavLink to="portfolio">Portfolio</NavLink></li>
 
-<li className="Nav-li"><Link to="contact">Contact</Link></li>
+<li ><NavLink to="contact">Contact</NavLink></li>
 
-<li className="Nav-li"> <Link to="blog">Blog</Link></li>
+<li > <NavLink to="blog">Blog</NavLink></li>
 
 
 

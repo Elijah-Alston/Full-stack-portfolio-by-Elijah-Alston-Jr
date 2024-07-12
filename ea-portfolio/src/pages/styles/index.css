@@ -48,6 +48,19 @@ color: white;
 border-radius: .5rem 
 }
 
+nav ul li a:hover{
+  color: red;
+
+
+
+}
+
+.active{
+
+  color :red;
+}
+
+
 
 .NAV-logo{
 

@@ -64,6 +64,39 @@ white-space: nowrap; */
 	align-items: left;
 	margin-right: -5px;
 }
+
+@media screen and (max-width: 786px){
+body{
+    overflow-x: hidden;
+}
+    nav{
+
+        display: flex;
+    }
+
+
+    .nav-wrapper{
+height: 75px;
+
+
+    }
+    .nav-h1{
+      font-size: 30px;
+      
+      background-color: #171e3e;
+      color: white;
+      border-bottom: none;
+        
+    }
+
+.nav-ul{
+ position: absolute;
+flex-direction: column;
+left: -100%;
+width: 75%;
+top: 70px;
+transition: .7s ease-in ;
+background-color: #3951bb;
 	
 	
 `;

@@ -19,12 +19,59 @@ input,select{vertical-align:middle}
 /*
 start of Nav
 */
-.NavLogo{
 
-  width: 100%;
+nav{
+
+  background-color: #8a8a8a;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul{
+  display: flex;
   
-  height: 100px;
+}
+nav ul li{
+
+  list-style: none;
+}
+
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  padding : 1rem;
+margin: 0.5rem;
+color: white;
+border-radius: .5rem 
+}
+
+
+.NAV-logo{
+
+  height: 100%;
+  
+  width: 100px;
     }
+
+    .nav-home{
+margin: 1rem;
+    }
+
+    .nav-ul{
+ 
+      
+    }
+
+
+    .nav-li{}
+
+
+
+
+
   /*
 End of nav
   */
@@ -324,23 +371,42 @@ padding: 10px;
  }
 
  .SWE-wrapper{
-  padding: 50px;
+  padding: 25px;
   background-color: #5f3e3e;
   gap: 25px;
 display: grid;
 grid-template-columns: auto auto;
+
+
 }
 
  .Graphic-wrapper{
-  padding:50px;
+  padding:25px;
 background-color: #443e3e;
 
-row-gap: 25px;
+gap: 25px;
 display: grid;
 grid-template-columns: auto auto;
 }
 
-@media  screen and (max-width: 600px) {
+.port-img{
+  height:100%;
+  width: 30vh;
+  margin: auto;
+}
+
+.port-img:hover{
+  width: 32vh;
+transition: all .5s ease-in;
+}
+
+
+
+
+
+
+
+@media  screen and (max-width: 1200px) {
  
   .project-wrapper{
    
@@ -349,31 +415,47 @@ grid-template-columns: auto auto;
   
   
   }
-    .hero-img{
-  width: 20vh; 
+    .port-img{
+  width: 35vw; 
   margin: auto;
     }
-    .hero-img:hover{
-      width: 25vh; 
+    .port-img:hover{
+      width: 37vw; 
         }
   
-    .SWE-wrapper{padding: 50px;
-      background-color: #5f3e3e;
-      display: flex;
-      flex-direction: column;
    
-   
-   
-    }
-    
-     .Graphic-wrapper{padding:50px;
-    background-color: #443e3e;
-    display: flex;
-    flex-direction: column;
    
     
     }
-  }
+  
+  @media  screen and (max-width: 786px) {
+ 
+      .port-img{
+    width: 100%; 
+    margin: auto;
+      }
+      .port-img:hover{
+        width: 100%; 
+          }
+
+          .SWE-wrapper{padding: 50px;
+            background-color: #5f3e3e;
+            display: flex;
+            flex-direction: column;
+         
+         
+         
+          }
+          
+           .Graphic-wrapper{padding:50px;
+          background-color: #443e3e;
+          display: flex;
+          flex-direction: column;
+         
+          
+          }
+    
+    }
 
 
 

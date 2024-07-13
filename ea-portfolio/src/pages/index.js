@@ -90,6 +90,41 @@ const Home = () => {
 									
 								</span>
 							</i></a>
+                                        <a href="https://www.instagram.com/_.elijah.a?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==>">
+                            <i className="fab fa-instagram">
+								<span
+									style={{
+										marginLeft: "10px",
+									}}
+								>
+									<img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
+								</span>
+							</i>
+                            </a>
+                            
+                            <a href="https://twitter.com/elijah_a_jr"> <i className="fab fa-twitter">
+								<span
+									style={{
+										marginLeft: "10px",
+									}}
+								>
+									<img width="50" height="50" src="https://img.icons8.com/ios/50/x.png" alt="x"/>
+								</span>
+							</i> </a>
+
+                            <a href="https://github.com/">	<i className="fab fa-youtube">
+								<span
+									style={{
+										marginLeft: "10px",
+									}}
+								>
+									<img width="48" height="48" src="https://img.icons8.com/material-rounded/96/github.png" alt="github"/>
+								</span>
+							</i> </a>
+
+
+
+
             </div>
         </div>
            

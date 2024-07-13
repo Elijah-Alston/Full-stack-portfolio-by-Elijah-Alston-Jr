@@ -1,11 +1,21 @@
 import React from "react";
 import {Link} from "react-router-dom"
 import { NavLink } from "react-router-dom"
+import { useState } from "react";
 const Navbar = () => {
+    const[menuOpen, setMenuOpen] = useState(false)
+    
     return (
             <nav>
                 <Link to="Main" className="nav-home"><img src="logo.png" className="NAV-logo"></img></Link>
-<ul className="Nav-ul">  
+                <div className="menu"  onClick={()=> {
+                   setMenuOpen(!menuOpen) ;
+                }}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+<ul className={menuOpen ? "open" : ""} >  
 
 <li> <NavLink to="about">About</NavLink></li>
 

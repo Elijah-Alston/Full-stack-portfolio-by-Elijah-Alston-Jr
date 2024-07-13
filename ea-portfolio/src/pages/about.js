@@ -14,10 +14,10 @@ const About = () => {
 			<div className="aboutContainer">
 
 			<div className="aboutWrap1">
-		<img src="images/photo.png" className="hero-img"></img>
+		<img src="images/photo.png" className="about-img"></img>
 
-			<p>I am a Information technology student Aspiring to be a Full stack Developer.
-My current conectraions are in web devlelopment t and cyber security. I am also interested in devleoping video games because of my intrest in grpahic desing and my love for gaming.</p>
+			<p className="about-p">I am a Information technology student Aspiring to be a Full stack Developer.
+My current concentrations are in web development t and cyber security. I am also interested in developing video games because of my interest in graphic design and my love for gaming.</p>
 			
 			</div>
 			<div className="aboutWrap2">
@@ -31,13 +31,17 @@ My current conectraions are in web devlelopment t and cyber security. I am also 
 			<li>Crocheting</li>
 			<li> making money</li>
 			</ul>
+
 			
 		
-			<p>
+			<p className="about-p">
 			In my free time i like to:
 			give back to the community either by community service or teaching step at the local community center
 			Help friends and family with any issues they have.
 			And learn more ways of making money </p>
+
+
+			<button className="Resume-button"> RESUME</button>
 
 			</div>
 
@@ -57,7 +61,7 @@ My current conectraions are in web devlelopment t and cyber security. I am also 
 			
 
 			
-			<p>My future goals have alwasy been to become a SWE. The reason for why I want to become a SWE is because I love helping others escpecially with solving problems which I would be able to do as a SWE.</p>
+			<p className="about-p">My future goals have alwasy been to become a SWE. The reason for why I want to become a SWE is because I love helping others escpecially with solving problems which I would be able to do as a SWE.</p>
 			
 			</div>
 

@@ -70,7 +70,7 @@ nav ul li a{
   display: block;
   text-decoration: none;
   padding : 1rem;
-margin: 0.5rem;
+margin: 1.5rem;
 color: white;
 border-radius: .5rem ;
 font-size: 1.3rem ;
@@ -84,7 +84,7 @@ nav ul li a:hover{
 
 }
 
-@media (max-width: 486px){
+@media (max-width: 1200px){
 
 nav{align-items: start;
 flex-direction: column;}
@@ -270,10 +270,7 @@ display: inline-block;
 }
 
 
-.img-wrapper:hover .slide{
 
-  animation-play-state: paused;
-}
 
 
 .hero-img{
@@ -283,11 +280,7 @@ display: inline-block;
  
   }
 
-  .hero-img:hover{
-width: 32vh;
-transition: all .5s ease-in;
 
-  }
 
   /* end of hero image*/
 
@@ -474,7 +467,7 @@ margin: 1rem;
 
   }
 
-  @media screen and (max-width: 786px){
+  @media screen and (max-width: 1300px){
 
     .aboutContainer{
 
@@ -491,6 +484,15 @@ margin: 1rem;
         .aboutwrap1{
           flex-grow: 2;
 
+        }
+        .ABR-wrapper{
+          display: flex;
+grid-template-columns: auto auto ;
+gap: 25px;
+column-gap: 10px;
+margin: auto;
+text-align: center;
+background-color: #fff;
         }
 
 
@@ -548,10 +550,6 @@ grid-template-columns: auto auto;
   margin: auto;
 }
 
-.port-img:hover{
-  width: 32vh;
-transition: all .5s ease-in;
-}
 
 
 
@@ -559,7 +557,8 @@ transition: all .5s ease-in;
 
 
 
-@media  screen and (max-width: 1200px) {
+
+@media  screen and (max-width: 1400px) {
  
   .project-wrapper{
    

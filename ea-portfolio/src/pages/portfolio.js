@@ -19,7 +19,7 @@ const portfolio = () => {
                  <img src="images/bbq 2.png" class="port-img"></img>
                  <img src="images/serve2.png" class="port-img"></img>
                  <img src="images/bbq.png" class="port-img"></img>
-                 <img src="images/fianl graphic.png" class="port-img"></img>
+                 <img src="images/giveaway.png" class="port-img"></img>
                  <img src="images/final poster 1.png" class="port-img"></img> 
                  <img src="images/final poster 2.png" class="port-img"></img>
                  <img src="images/bblb cookout.png" class="port-img"></img> 

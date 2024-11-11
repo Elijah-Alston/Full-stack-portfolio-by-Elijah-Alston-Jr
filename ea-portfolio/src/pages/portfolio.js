@@ -13,22 +13,22 @@ const portfolio = () => {
 			<div className="project-wrapper">
 
 <div className="SWE-wrapper">
-<img src="images/treeweek.png" class="port-img"></img>
-                 <img src="images/phuck fall.png" class="port-img"></img>
-                 <img src="images/serve.png" class="port-img"></img>
-                 <img src="images/bbq 2.png" class="port-img"></img>
-                 <img src="images/serve2.png" class="port-img"></img>
-                 <img src="images/bbq.png" class="port-img"></img>
-                 <img src="images/giveaway.png" class="port-img"></img>
-                 <img src="images/final poster 1.png" class="port-img"></img> 
-                 <img src="images/final poster 2.png" class="port-img"></img>
-                 <img src="images/bblb cookout.png" class="port-img"></img> 
-                 <img src="images/final.png" class="port-img"></img> 
-                 <img src="images/hair spray flyeer.png" class="port-img"></img>
-                 <img src="images/spot a tree.png" class="port-img"></img> 
-                 <img src="images/protect your men.png" class="port-img"></img> 
-				 <img src="images/miss bblb.png" class="port-img"></img> 
-				 <img src="images/newyear.png" class="port-img"></img> 
+<img src="images/treeweek.png" class="port-img" loading="lazy"></img>
+                 <img src="images/phuck fall.png" class="port-img" loading="lazy"></img>
+                 <img src="images/serve.png" class="port-img"loading="lazy"></img>
+                 <img src="images/bbq 2.png" class="port-img"loading="lazy"></img>
+                 <img src="images/serve2.png" class="port-img"loading="lazy"></img>
+                 <img src="images/bbq.png" class="port-img"loading="lazy"></img>
+                 <img src="images/giveaway.png" class="port-img"loading="lazy"></img>
+                 <img src="images/final poster 1.png" class="port-img"loading="lazy"></img> 
+                 <img src="images/final poster 2.png" class="port-img"loading="lazy"></img>
+                 <img src="images/bblb cookout.png" class="port-img" loading="lazy"></img> 
+                 <img src="images/final.png" class="port-img"loading="lazy"></img> 
+                 <img src="images/hair spray flyeer.png" class="port-img"loading="lazy"></img>
+                 <img src="images/spot a tree.png" class="port-img" loading="lazy"></img> 
+                 <img src="images/protect your men.png" class="port-img" loading="lazy"></img> 
+				 <img src="images/miss bblb.png" class="port-img" loading="lazy"></img> 
+				 <img src="images/newyear.png" class="port-img" loading="lazy"></img> 
 
 </div>
 
